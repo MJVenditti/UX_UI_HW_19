@@ -5,6 +5,11 @@ body{
     background-color: rgba(223, 224, 219, 1)
 }
 
+body a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Navigation/Title Styling */
 
 .Title{
@@ -16,7 +21,7 @@ body{
     display: inline-block;
     width: 100%;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
@@ -37,92 +42,39 @@ body{
     display: inline-block;
     width: 100%;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;*/
     font-family: 'Karla', sans-serif;
 }
 
-.case-item-top-left{
-    border-top: 3px solid rgba(42, 40, 41, 1);
-    border-left: 3px solid rgba(42, 40, 41, 1);
-    border-right: 3px solid rgba(42, 40, 41, 1);
-    padding: 10px;
+.card-title {
     font-size: 17px;
-    /*insert font styling here*/
     font-family: 'Karla', sans-serif;
     color:  rgba(42, 40, 41, 1);
     text-align: center;
     font-weight: 600;
 }
 
-.case-item-top-right{
-    border-top: 3px solid rgba(42, 40, 41, 1);
-    border-left: 3px solid rgba(42, 40, 41, 1);
-    border-right: 3px solid rgba(42, 40, 41, 1);
+.card-body {
+    border: 3px solid rgba(42, 40, 41, 1);
     padding: 10px;
-    font-size: 17px;
+    justify-content: center;
+}
+
+.card-text {
     /*insert font styling here*/
+    font-size: 17px;
     font-family: 'Karla', sans-serif;
     color:  rgba(42, 40, 41, 1);
     text-align: center;
-    font-weight: 600;
+    font-weight: 300;
 }
 
-.case-item-bottom-right{
-    border-left: 3px solid rgba(223, 224, 219, 1);
-    padding: 10px;
-    font-size: 17px;
-    /*insert font styling here*/
-    color:  rgba(223, 224, 219, 1);
-    font-family: 'Karla', sans-serif;
-    text-align: center;
-    background-color: rgba(42, 40, 41, 1);
-    font-weight: 200;
+.btn {
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 5px;
 }
-
-.case-item-bottom-left{
-    border-right: 3px solid rgba(223, 224, 219, 1);
-    padding: 10px;
-    font-size: 17px;
-    /*insert font styling here*/
-    font-family: 'Karla', sans-serif;
-    color:  rgba(223, 224, 219, 1);
-    text-align: center;
-    background-color: rgba(42, 40, 41, 1);
-    font-weight: 200;
-}
-
-/*Testimonial Section*/
-
-.Testimonial_Grid{
-    margin-top: 30px;
-    display: inline-block;
-    width: 100%;
-    display: inline-grid;
-    font-family: 'Karla', sans-serif;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
-
-.quote-item{
-    /*border: 1px solid rgba(0, 0, 0, 0.8);*/
-    padding: 10px;
-    font-size: 17px;
-    /*insert font styling here*/
-    font-family: 'Karla', sans-serif;
-    text-align: center;
-}
-.quote-item-i{
-    border-bottom: 3px solid rgba(223, 224, 219, 1);
-    padding: 10px;
-    font-size: 17px;
-    /*insert font styling here*/
-    font-family: 'Karla', sans-serif;
-    text-align: center;
-    background-color: rgba(42, 40, 41, 1);
-    color:  rgba(223, 224, 219, 1);
-}
-
 /*About Me Section*/
 
 img{
