@@ -67,6 +67,27 @@ body a {
     font-weight: 300;
 }
 
+.card {
+    transition: 0.3;
+    border: 3px solid rgba(42, 40, 41, 1);
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.card p {
+    padding: 10px;
+    text-align: center
+}
+
+.card:hover {
+    /*apply hover state if need be*/
+}
+
+.container {
+    padding: 2px 16px; 
+}
+
 .btn {
     justify-content: center;
     background-color: whitesmoke;
