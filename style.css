@@ -30,6 +30,7 @@ body a {
 .Headline {
     height: 100px;
     width: cover;
+    margin: 20px;
 }
 
 .nav-grid-item {
@@ -39,6 +40,22 @@ body a {
     /*insert font styling here*/
     font-family: 'Karla', sans-serif;
     text-align: center;
+}
+
+#featured {
+    height: 30vh;
+    background-image: url("UX_UI_HW_19/images/governemnt2.jpg");
+    background: black;
+    margin: 20px; 
+    background-repeat: no-repeat;
+}
+
+#featured h3 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 
 /*Case Study Section*/
@@ -78,6 +95,10 @@ img{ /*profile img*/
     border: 3px solid rgba(42, 40, 41, 1);
 }
 
+.about-me-text {
+    margin: 20px;
+}
+
 /*Footer Section*/
 
 .Footer_Navigation{
@@ -87,6 +108,7 @@ img{ /*profile img*/
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     font-family: 'Karla', sans-serif;
+    margin: 20px;
 }
 
 .grid-item-foot{
