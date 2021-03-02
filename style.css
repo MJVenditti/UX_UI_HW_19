@@ -119,8 +119,7 @@ img{ /*profile img*/
     font-family: 'Karla', sans-serif;
     text-align: center;
     margin-top: 10px;
-    background-color: rgba(42, 40, 41, 1);
-    color:  rgba(223, 224, 219, 1);
+    color:  rgba(42, 40, 41, 1);
 
 }
 
@@ -136,18 +135,21 @@ h2{
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-weight: 200;
+    letter-spacing: 4px;
 }
 
 h3{
     text-align: center;
     font-family: 'Karla', sans-serif;
     font-weight: 400;
+    letter-spacing: 4px;
 }
 
 h4{
-    text-align: left;
+    text-align: center;
     font-family: 'Karla', sans-serif;
-    font-weight: 600;
+    font-weight: 200;
+    letter-spacing: 4px;
 }
 
 h5{
@@ -155,10 +157,24 @@ h5{
     font-family: 'Karla', sans-serif;
     font-weight: 400;
     letter-spacing: 4px;
+    color: white
 }
+
+.Title h5{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
 
 p{
     text-align: left;
     font-family: 'Karla', sans-serif;
+}
+
+.about-me-text h3{
+    text-align: left;
+    font-weight: 400px;
 }
 
